@@ -143,7 +143,6 @@ def fake_list():
 	return content
 
 def main():
-	print final_list()
 	print center_list()
 
 if __name__ == '__main__':

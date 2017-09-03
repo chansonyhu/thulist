@@ -1559,6 +1559,8 @@ var white_domains = {"am":{
 "abchina":1,
 "ablesky":1,
 "accgame":1,
+"acfun":1,
+"acgvideo":1,
 "aci-wh":1,
 "acs86":1,
 "acshoes":1,
@@ -3014,6 +3016,7 @@ var white_domains = {"am":{
 "dospy":1,
 "dostor":1,
 "douban":1,
+"doubanio":1,
 "douguo":1,
 "douluodalu123":1,
 "douxie":1,
@@ -5772,7 +5775,6 @@ var white_domains = {"am":{
 "ptbus":1,
 "ptdao":1,
 "ptjy":1,
-"ptlogin2.qq":1,
 "ptotour":1,
 "ptpcp":1,
 "puahome":1,
@@ -9571,6 +9573,7 @@ var white_domains = {"am":{
 "9555":1,
 "9928":1,
 "9998":1,
+"acfun":1,
 "acg":1,
 "bilibili":1,
 "caoxian":1,
@@ -9683,8 +9686,6 @@ function isInDomains(domain_dict, host) {
 	}
 }
 function FindProxyForURL(url, host) {
-	url=""+url;
-	host=""+host;
 	if ( isPlainHostName(host) === true ) {
 		return direct;
 	}
